@@ -22,7 +22,8 @@ public class VendaStrategyImpl implements VendaStrategy {
     private final ProcessamentoService processamentoService;
 
     public VendaStrategyImpl(VendaCabecalhoRepository vendaCabecalhoRepository,
-                             VendaOrcamentoCabecalhoRepository vendaOrcamentoCabecalhoRepository, ProcessamentoService processamentoService) {
+                             VendaOrcamentoCabecalhoRepository vendaOrcamentoCabecalhoRepository,
+                             ProcessamentoService processamentoService) {
         this.vendaCabecalhoRepository = vendaCabecalhoRepository;
         this.vendaOrcamentoCabecalhoRepository = vendaOrcamentoCabecalhoRepository;
         this.processamentoService = processamentoService;
